@@ -42,7 +42,7 @@ function mysite_custom_columns($value, $column_name, $id) {
   }
 }
 function mysite_show_extra_profile_fields($user) {
-  print('<h3>PFS-Display User Meta Data/h3>');
+  print('<h3>PFS-Display User Meta Data</h3>');
 
   print('<table class="form-table">');
 
