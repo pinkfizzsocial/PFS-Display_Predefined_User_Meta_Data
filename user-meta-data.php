@@ -2,7 +2,7 @@
 /*
 * Plugin Name: PFS-Display Predefined User Meta Data
 * Description: This plugin will display custom meta data for users on the User Profile
-* Version: 1.0.2
+* Version: 1.0.3
 * Author: Pink Fizz Social
 * Author URI: http://pinkfizz.social
 * License: GPL2
@@ -42,7 +42,7 @@ function mysite_custom_columns($value, $column_name, $id) {
   }
 }
 function mysite_show_extra_profile_fields($user) {
-  print('<h3>Bepoke User Meta Data</h3>');
+  print('<h3>PFS-Display User Meta Data/h3>');
 
   print('<table class="form-table">');
 
