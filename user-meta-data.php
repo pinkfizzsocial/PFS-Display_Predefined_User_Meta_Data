@@ -2,7 +2,7 @@
 /*
 * Plugin Name: PFS-Display Predefined User Meta Data
 * Description: This plugin will display custom meta data for users on the User Profile
-* Version: 1.0.4
+* Version: 1.0.5
 * Author: Pink Fizz Social
 * Author URI: http://pinkfizz.social
 * License: GPL2
@@ -18,6 +18,7 @@ function mysite_custom_define() {
   $custom_meta_fields['card-expiry'] = 'Card Expiry Email Status';
   $custom_meta_fields['academy_membership'] = 'Academy Membership:';	
   $custom_meta_fields['subscription_renewal_email_last_sent'] = 'Subscription Renewal Email Last Sent:';
+  $custom_meta_fields['temporarily_block_automatewoo_emails'] = 'Temporarily Block AutomateWoo Emails:';
   return $custom_meta_fields;
 }
 function mysite_columns($defaults) {
