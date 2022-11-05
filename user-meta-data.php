@@ -18,7 +18,7 @@ function mysite_custom_define() {
   $custom_meta_fields['card-expiry'] = 'Card Expiry Email Status';
   $custom_meta_fields['academy_membership'] = 'Academy Membership:';	
   $custom_meta_fields['subscription_renewal_email_last_sent'] = 'Subscription Renewal Email Last Sent:';
-  $custom_meta_fields['academy+_upgrade'] = 'Has Acemy been upgraded?';  
+  $custom_meta_fields['academy+_upgrade'] = 'Has Academy been upgraded?';  
   $custom_meta_fields['temporarily_block_automatewoo_emails'] = 'Temporarily Block AutomateWoo Emails:';
   return $custom_meta_fields;
 }
